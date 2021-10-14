@@ -61,7 +61,7 @@ function Header({placeholder}) {
             
                 {/*  left  */}
                 <div className="relative flex items-center h-10 cursor-pointer my-auto">
-                   <Image onClick={() => router.push("/")} className="bg-transparent" src="https://links.papareact.com/qd3" 
+                   <Image onClick={() => router.push("/")} className="  bg-transparent" src="https://links.papareact.com/qd3" 
                    layout ="fill" 
                    objectFit="contain"
                    objectPosition="left"
@@ -85,13 +85,13 @@ function Header({placeholder}) {
                  {/* Right  */}
                 <div className="flex items-center space-x-4 
                 justify-end text-gray-500">
-                    <p className="hidden md:inline cursor-pointer">
+                    <p className="hidden md:inline cursor-pointer hover:text-gray-700">
                         Become a host
                     </p>
-                    <GlobeAltIcon className="h-6 cursor-pointer"/>
+                    <GlobeAltIcon className="h-6 cursor-pointer hover:animate-bounce transform duration-150"/>
 
                      <div className="flex items-center space-x-2
-                      border-2 p-2 rounded-full">
+                      border-2 p-2 rounded-full hover:bg-gray-100">
                        <MenuIcon className="h-6" />
                        <UserCircleIcon className="h-6"/>
                      </div>    
